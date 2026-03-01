@@ -1,0 +1,13 @@
+{
+  "name": "loginform",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Login form — frontend (Vite+React) and backend (Express) separated",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "backend": "cd backend && npm run dev",
+    "install:all": "cd frontend && npm install && cd ../backend && npm install"
+  }
+}
